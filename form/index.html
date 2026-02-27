@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="contact-form">
+        <h2>INFORMATION</h2>
+
+        <div id="errorMessages"></div>
+
+       <form id="contactForm" action="process.php" method="post">
+           <input type="text" id="fullName" name="fullname" placeholder="Enter your full name">
+           <input type="email" id="email" name="email" placeholder="Enter your email address">
+           <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+           <textarea id="message" name="message" placeholder="Write your message here"></textarea>
+           <button type="submit">Submit</button>
+       </form>
+    </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
